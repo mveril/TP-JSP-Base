@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Exo2Servlet
  */
+@WebServlet("/exo2")
 public class Exo2Servlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
