@@ -13,6 +13,11 @@
 		<servlet-name>Exo2Servlet</servlet-name>
 		<servlet-class>servlets.Exo2Servlet</servlet-class>
 	</servlet>
+	
+		<servlet>
+		<servlet-name>Exo3Servlet</servlet-name>
+		<servlet-class>servlets.Exo3Servlet</servlet-class>
+	</servlet>
 
 	<servlet-mapping>
 		<servlet-name>Exo1Servlet</servlet-name>
@@ -22,6 +27,11 @@
 	<servlet-mapping>
 		<servlet-name>Exo2Servlet</servlet-name>
 		<url-pattern>/exo2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Exo3Servlet</servlet-name>
+		<url-pattern>/exo3</url-pattern>
 	</servlet-mapping>
 
 </web-app>
